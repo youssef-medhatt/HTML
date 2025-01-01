@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <meta name="author" content="Youssef Medhat">
+        <meta name="description" content="Interactive Forms">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <form>
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your username"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" id="confirm-password" name="confirm-password"><br>
+
+            <label for="phone-number">Phone Number</label><br>
+            <input type="number" id="phone-number" name="phone-number" placeholder="123456789"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender"> 
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label><br>
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label>Do you like this session?</label><br>
+            <input type="radio" id="yes" name="feedback" checked>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="feedback">
+            <label for="no">No</label><br>
+
+            <label for="rating">Rate this Session</label><br>
+            <input type="range" id="rating" name="rating" value="50"><br>
+
+            <label for="favorite-color">Select your favorite color</label><br>
+            <select name="favorite-color" id="favorite-color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select><br>
+
+            <label for="feedback-text">Your feedback matters</label><br>
+            <textarea id="feedback-text" name="feedback-text"></textarea><br>
+
+            <label for="resume">Upload your Resume</label><br>
+            <input type="file" id="resume" name="resume"><br>
+
+            <label>Select your favorite languages</label><br>
+            <input type="checkbox" id="arabic" name="language" value="Arabic">
+            <label for="arabic">Arabic</label>
+            <input type="checkbox" id="english" name="language" value="English">
+            <label for="english">English</label><br>
+
+            <input type="number" name="hidden-id" id="hidden-id" hidden value="123">
+            <input type="submit" value="Submit">
+        </form>
+
+        <hr>
+
+        <div style="justify-items: center;">
+            <form>
+                <header>Registration Form</header>
+                <main class="form-center">
+                    <fieldset>
+                        <label for="reg-name">Name</label><br>
+                        <input type="text" name="reg-name" id="reg-name"><br>
+
+                        <label for="reg-email">Email</label><br>
+                        <input type="email" name="reg-email" id="reg-email"><br>
+
+                        <label for="reg-password">Password</label><br>
+                        <input type="password" name="reg-password" id="reg-password"><br><br> 
+
+                        <input type="submit" id="submit" value="Register">
+
+                        <footer>
+                            <a href="https://termly.io/resources/templates/terms-and-conditions-template/" target="_blank">Terms and Conditions</a>
+                        </footer>
+                    </fieldset>
+                </main>
+            </form>
+        </div>
+
+        <hr>
+
+        <form>
+            <legend>Survey</legend>
+            <fieldset>
+                <label for="survey-name">Name</label><br>
+                <input type="text" id="survey-name" name="survey-name"><br>
+
+                <label for="survey-age">Age</label><br>
+                <input type="number" id="survey-age" name="survey-age"><br>
+
+                <label>Gender</label><br>
+                <input type="radio" id="male" name="survey-gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="survey-gender">
+                <label for="female">Female</label><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <hr>
+
+        <article>
+            <form class="comment">
+                <legend>Comments</legend>
+                <fieldset>
+                    <div class="user-comment">
+                        <label for="comment1">Osama</label><br>
+                        <textarea id="comment1" name="comment1">Great work!</textarea><br>
+                    </div>
+
+                    <div class="user-comment">
+                        <label for="comment2">Mahmoud</label><br>
+                        <textarea id="comment2" name="comment2">Well done!</textarea><br>
+                    </div>
+
+                    <div class="user-comment">
+                        <label for="comment3">Youssef</label><br>
+                        <textarea id="comment3" name="comment3">Keep it up!</textarea><br>
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+
+        <hr>
+
+        <form>
+            <legend>Accessible Form</legend>
+            <fieldset class="accessibility">
+                <label for="access-name">Name</label>
+                <input type="text" id="access-name" name="access-name">
+
+                <label for="access-password">Password</label>
+                <input type="password" id="access-password" name="access-password">
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <hr>
+
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+fieldset{
+    border-color: darkslateblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+fieldset input{
+   margin: 1rem;
+   padding: 1em;
+   font-size: 14px;
+}
+
+.form-center{
+   display: flex;
+   width: 100%;
+   background-color: azure;
+   justify-content: center;
+}
+
+.text-center{
+   text-align: center;
+   font-weight: bold;
+}
+
+input[type=number]{
+   width: 10%;
+   text-align: right;
+}
+
+#submit{
+   color: blueviolet;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+form input[type="radio"]{
+   margin-left: 0.5em;
+}
+
+.comment{
+   background-image: url(background.jpg);
+   background-size: cover;
+   width: 30%;
+   padding: 10px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.user-comment{
+   padding: 5px;
+   margin: 5px;
+   border: 3px solid black;
+   border-radius: 5px;
+}
+
+.accessibility{
+   background-color: yellowgreen;
+   border-radius: 5px;
+   padding: 5px;
+   margin: 5px;
+   width: 50%;
+}
+
+.box1{
+   border: 5px solid black;
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   padding: 50px;
+   box-sizing: content-box;
+   background-color: lightgray;
+}
+
+.box2{
+   border: 5px solid black;
+   width: 100px;
+   height: 100px;
+   margin: 7px;
+   padding: 4px;
+   box-sizing: border-box;
+   background-color: lightblue;
+}
